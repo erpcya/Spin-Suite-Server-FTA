@@ -1,0 +1,35 @@
+-- 03-oct-2014 16:17:30 CEST
+-- Spin-Suite-FTA
+UPDATE AD_Process_Para SET AD_Val_Rule_ID=52222,Updated=TO_DATE('2014-10-03 16:17:30','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Process_Para_ID=54986
+;
+
+-- 03-oct-2014 16:18:00 CEST
+-- Spin-Suite-FTA
+UPDATE AD_Process_Para SET AD_Val_Rule_ID=52222,Updated=TO_DATE('2014-10-03 16:18:00','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Process_Para_ID=54945
+;
+
+-- 03-oct-2014 16:18:22 CEST
+-- Spin-Suite-FTA
+UPDATE AD_TreeNode SET Parent_ID=0, SeqNo=0,Updated=TO_DATE('2014-10-03 16:18:22','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Tree_ID=50004 AND Node_ID=50000
+;
+
+-- 03-oct-2014 16:18:22 CEST
+-- Spin-Suite-FTA
+UPDATE AD_TreeNode SET Parent_ID=0, SeqNo=1,Updated=TO_DATE('2014-10-03 16:18:22','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Tree_ID=50004 AND Node_ID=50001
+;
+
+-- 03-oct-2014 16:18:22 CEST
+-- Spin-Suite-FTA
+UPDATE AD_TreeNode SET Parent_ID=0, SeqNo=2,Updated=TO_DATE('2014-10-03 16:18:22','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Tree_ID=50004 AND Node_ID=50005
+;
+
+-- 03-oct-2014 16:18:22 CEST
+-- Spin-Suite-FTA
+UPDATE AD_TreeNode SET Parent_ID=0, SeqNo=3,Updated=TO_DATE('2014-10-03 16:18:22','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Tree_ID=50004 AND Node_ID=50002
+;
+
+-- 03-oct-2014 16:18:22 CEST
+-- Spin-Suite-FTA
+UPDATE AD_TreeNode SET Parent_ID=0, SeqNo=4,Updated=TO_DATE('2014-10-03 16:18:22','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Tree_ID=50004 AND Node_ID=50005
+;
+
