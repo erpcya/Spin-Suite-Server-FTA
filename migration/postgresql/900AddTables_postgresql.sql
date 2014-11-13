@@ -3325,27 +3325,7 @@ INSERT INTO SPS_Column_Trl (AD_Language,SPS_Column_ID, Name, IsTranslated,AD_Cli
 
 -- Sep 4, 2014 12:13:00 PM CEST
 -- Spin-Suite-FTA
-INSERT INTO SPS_Column (AD_Client_ID,AD_Column_ID,AD_Element_ID,AD_Org_ID,AD_Reference_ID,AD_Reference_Value_ID,AD_Val_Rule_ID,ColumnName,Created,CreatedBy,EntityType,FieldLength,IsActive,IsAlwaysUpdateable,IsEncrypted,IsIdentifier,IsKey,IsMandatory,IsParent,IsSelectionColumn,IsUpdateable,Name,SeqNo,SPS_Column_ID,SPS_Table_ID,Updated,UpdatedBy) VALUES (0,67101,56142,0,30,171,52241,'Category_ID',TO_TIMESTAMP('2014-09-04 12:12:57','YYYY-MM-DD HH24:MI:SS'),100,'ECA01',10,'Y','N','N','N','N','N','N','Y','Y','Category',0,54052,50218,TO_TIMESTAMP('2014-09-04 12:12:57','YYYY-MM-DD HH24:MI:SS'),100)
-;
-
--- Sep 4, 2014 12:13:00 PM CEST
--- Spin-Suite-FTA
-INSERT INTO SPS_Column_Trl (AD_Language,SPS_Column_ID, Name, IsTranslated,AD_Client_ID,AD_Org_ID,Created,Createdby,Updated,UpdatedBy) SELECT l.AD_Language,t.SPS_Column_ID, t.Name, 'N',t.AD_Client_ID,t.AD_Org_ID,t.Created,t.Createdby,t.Updated,t.UpdatedBy FROM AD_Language l, SPS_Column t WHERE l.IsActive='Y' AND l.IsSystemLanguage='Y' AND l.IsBaseLanguage='N' AND t.SPS_Column_ID=54052 AND NOT EXISTS (SELECT * FROM SPS_Column_Trl tt WHERE tt.AD_Language=l.AD_Language AND tt.SPS_Column_ID=t.SPS_Column_ID)
-;
-
--- Sep 4, 2014 12:13:00 PM CEST
--- Spin-Suite-FTA
 DELETE FROM SPS_Column_Trl WHERE SPS_Column_ID = 54052
-;
-
--- Sep 4, 2014 12:13:00 PM CEST
--- Spin-Suite-FTA
-INSERT INTO SPS_Column_Trl (AD_Language,SPS_Column_ID, Name, IsTranslated,AD_Client_ID,AD_Org_ID,Created,Createdby,Updated,UpdatedBy)VALUES ('es_MX',54052,'Rubro','N',0,0,'2013-08-28',100,'2013-08-28',100)
-;
-
--- Sep 4, 2014 12:13:00 PM CEST
--- Spin-Suite-FTA
-INSERT INTO SPS_Column_Trl (AD_Language,SPS_Column_ID, Name, IsTranslated,AD_Client_ID,AD_Org_ID,Created,Createdby,Updated,UpdatedBy)VALUES ('es_VE',54052,'Category','N',0,0,'2013-08-28',100,'2013-08-28',100)
 ;
 
 -- Sep 4, 2014 12:13:02 PM CEST
@@ -3646,31 +3626,6 @@ INSERT INTO SPS_Column_Trl (AD_Language,SPS_Column_ID, Name, IsTranslated,AD_Cli
 -- Sep 4, 2014 12:13:32 PM CEST
 -- Spin-Suite-FTA
 INSERT INTO SPS_Column_Trl (AD_Language,SPS_Column_ID, Name, IsTranslated,AD_Client_ID,AD_Org_ID,Created,Createdby,Updated,UpdatedBy)VALUES ('es_VE',54064,'Price List','N',0,0,'2013-08-28',100,'2013-08-28',100)
-;
-
--- Sep 4, 2014 12:13:34 PM CEST
--- Spin-Suite-FTA
-INSERT INTO SPS_Column (AD_Client_ID,AD_Column_ID,AD_Element_ID,AD_Org_ID,AD_Reference_ID,AD_Reference_Value_ID,AD_Val_Rule_ID,ColumnName,Created,CreatedBy,EntityType,FieldLength,IsActive,IsAlwaysUpdateable,IsEncrypted,IsIdentifier,IsKey,IsMandatory,IsParent,IsSelectionColumn,IsUpdateable,Name,SeqNo,SPS_Column_ID,SPS_Table_ID,Updated,UpdatedBy) VALUES (0,66695,55970,0,18,53523,52186,'PlantingCycle_ID',TO_TIMESTAMP('2014-09-04 12:13:32','YYYY-MM-DD HH24:MI:SS'),100,'ECA01',10,'Y','N','N','Y','N','N','N','Y','N','Planting Cycle',2,54065,50218,TO_TIMESTAMP('2014-09-04 12:13:32','YYYY-MM-DD HH24:MI:SS'),100)
-;
-
--- Sep 4, 2014 12:13:34 PM CEST
--- Spin-Suite-FTA
-INSERT INTO SPS_Column_Trl (AD_Language,SPS_Column_ID, Name, IsTranslated,AD_Client_ID,AD_Org_ID,Created,Createdby,Updated,UpdatedBy) SELECT l.AD_Language,t.SPS_Column_ID, t.Name, 'N',t.AD_Client_ID,t.AD_Org_ID,t.Created,t.Createdby,t.Updated,t.UpdatedBy FROM AD_Language l, SPS_Column t WHERE l.IsActive='Y' AND l.IsSystemLanguage='Y' AND l.IsBaseLanguage='N' AND t.SPS_Column_ID=54065 AND NOT EXISTS (SELECT * FROM SPS_Column_Trl tt WHERE tt.AD_Language=l.AD_Language AND tt.SPS_Column_ID=t.SPS_Column_ID)
-;
-
--- Sep 4, 2014 12:13:34 PM CEST
--- Spin-Suite-FTA
-DELETE FROM SPS_Column_Trl WHERE SPS_Column_ID = 54065
-;
-
--- Sep 4, 2014 12:13:34 PM CEST
--- Spin-Suite-FTA
-INSERT INTO SPS_Column_Trl (AD_Language,SPS_Column_ID, Name, IsTranslated,AD_Client_ID,AD_Org_ID,Created,Createdby,Updated,UpdatedBy)VALUES ('es_MX',54065,'Ciclo de Siembra','N',0,0,'2013-08-13',100,'2013-08-13',100)
-;
-
--- Sep 4, 2014 12:13:34 PM CEST
--- Spin-Suite-FTA
-INSERT INTO SPS_Column_Trl (AD_Language,SPS_Column_ID, Name, IsTranslated,AD_Client_ID,AD_Org_ID,Created,Createdby,Updated,UpdatedBy)VALUES ('es_VE',54065,'Planting Cycle','N',0,0,'2013-08-13',100,'2013-08-13',100)
 ;
 
 -- Sep 4, 2014 12:13:37 PM CEST
